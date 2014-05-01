@@ -6,14 +6,25 @@
   "bin": {
     "hackaday": "./index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "feedparser": "*",
     "request": "*",
     "colors": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:radubogdan/hackaday-cli.git"
+  },
+  "keywords": [
+    "hackaday",
+    "terminal",
+    "feed",
+    "news"
+  ],
+  "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/radubogdan/hackaday-cli/issues"
+  },
+  "homepage": "git@github.com:radubogdan/hackaday-cli"
 }
