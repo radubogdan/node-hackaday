@@ -1,5 +1,9 @@
+#!/usr/bin/env node
+
 var FeedParser = require('feedparser')
-  , request = require('request');
+  , request = require('request')
+  , colors = require('colors')
+  , i = 1;
 
 var req = request('http://feeds2.feedburner.com/hackaday/LgoM')
   , fp = new FeedParser();
@@ -26,10 +30,14 @@ fp.on('error', function(err) {
 fp.on('readable', function() {
 
     var stream = this
-      , meta = this.meta
       , item;
 
-    while(item = stream.read()) {
-        console.log(item);
+    if (i < 8) {
+        while(item = stream.read()) {
+            console.log(i + '. ' + item.title.green + ' - ' + item.author + ' on ' + item.pubDate);
+            console.log('   ' + item.link);
+            console.log('\n');
+        }
+        i++;
     }
 });

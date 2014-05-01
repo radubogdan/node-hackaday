@@ -1,8 +1,11 @@
 {
-  "name": "hackaday-terminal",
-  "version": "0.0.0",
+  "name": "hackaday-cli",
+  "version": "0.0.1",
   "description": "Display latest hackaday posts in your terminal",
   "main": "index.js",
+  "bin": {
+    "hackaday": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "feedparser": "*",
-    "request": "*"
+    "request": "*",
+    "colors": "*"
   }
 }
