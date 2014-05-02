@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var had = require('../lib/main.js');
+
+had.hackaday();

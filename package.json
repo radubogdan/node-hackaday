@@ -1,19 +1,23 @@
 {
   "name": "hackaday-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Display latest hackaday posts in your terminal",
-  "main": "index.js",
+  "main": "./lib/main.js",
   "bin": {
-    "hackaday": "./index.js"
+    "hackaday": "./bin/hackaday"
   },
   "dependencies": {
-    "feedparser": "*",
-    "request": "*",
-    "colors": "*"
+    "feedparser": "~0.16.6",
+    "colors": "~0.6.2",
+    "request": "~2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./bin/hackaday"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:radubogdan/hackaday-cli.git"
+    "url": "https://github.com/radubogdan/hackaday-cli"
   },
   "keywords": [
     "hackaday",
@@ -24,7 +28,7 @@
   "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/radubogdan/hackaday-cli/issues"
+    "url": "https://github.com/radubogdan/hackaday-cli/issues"
   },
-  "homepage": "git@github.com:radubogdan/hackaday-cli"
+  "homepage": "https://github.com/radubogdan/hackaday-cli"
 }
