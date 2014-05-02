@@ -1,6 +1,6 @@
 {
   "name": "hackaday-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Display latest hackaday posts in your terminal",
   "main": "./lib/main.js",
   "bin": {

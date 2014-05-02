@@ -20,6 +20,7 @@ To open it in Browser, press the link beneath each article.
 
 ### Changelog
 
+  - `0.0.3`: Republish
   - `0.0.2`: Create bin/lib dir structure, refactor code
   - `0.0.1`: Release on npmjs
   - `0.0.0`: First working program.
