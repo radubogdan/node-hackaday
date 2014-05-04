@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 
-var had = require('../lib/main.js');
+var hack = require('../lib/main.js');
 
-had.hackaday();
+var i = 0;
+
+hack.get(function(item) {
+    i++;
+    console.log(i + '. ' + item.title.green + ' - ' + item.author + ' on ' + item.pubDate);
+    console.log('   ' + item.link + '\n');
+});
