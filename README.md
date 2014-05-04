@@ -1,7 +1,7 @@
 Hackaday Terminal
 =============
 
-Interface to http://hackaday.com into your terminal using Node.js.
+Interface to http://hackaday.com blog. Read latest posts into your terminal using Node.js.
 
 Because it's annoying to open the browser to see what's new on hackaday.
 
