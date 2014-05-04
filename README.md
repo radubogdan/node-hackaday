@@ -1,5 +1,7 @@
-Hackaday Terminal
+Hackaday
 =============
+
+[![NPM](https://nodei.co/npm/hackaday.png?compact=true)](https://nodei.co/npm/hackaday/)
 
 Interface to http://hackaday.com blog. Read latest posts into your terminal using Node.js.
 
@@ -36,7 +38,7 @@ hackaday.get(function(posts) {
 
 ### Changelog
 
-  - `0.0.4`
+  - `0.1.0`
     - Return readable stream data
     - Send callback and read it
   - `0.0.3`: Republish
