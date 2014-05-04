@@ -1,6 +1,6 @@
 {
   "name": "hackaday",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interface to the hackaday.com blog",
   "main": "./lib/main.js",
   "bin": {

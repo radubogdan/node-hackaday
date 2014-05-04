@@ -11,7 +11,7 @@ Because it's annoying to open the browser to see what's new on hackaday.
 Make sure you have node/npm installed:
 
 ```sh
-sudo npm install -g hackaday-cli
+sudo npm install -g hackaday
 ```
 
 ### Usage
@@ -38,7 +38,7 @@ hackaday.get(function(posts) {
 
 ### Changelog
 
-  - `0.1.0`
+  - `0.1.1`
     - Return readable stream data
     - Send callback and read it
   - `0.0.3`: Republish
